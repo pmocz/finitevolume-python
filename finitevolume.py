@@ -102,7 +102,7 @@ def extrapolateInSpaceToFace(f, f_dx, f_dy, dx):
 	dx       is the cell size
 	f_XL     is a matrix of spatial-extrapolated values on `left' face along x-axis 
 	f_XR     is a matrix of spatial-extrapolated values on `right' face along x-axis 
-	f_YR     is a matrix of spatial-extrapolated values on `left' face along y-axis 
+	f_YL     is a matrix of spatial-extrapolated values on `left' face along y-axis 
 	f_YR     is a matrix of spatial-extrapolated values on `right' face along y-axis 
 	"""
 	# directions for np.roll() 
