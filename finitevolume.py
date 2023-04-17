@@ -280,7 +280,7 @@ def main():
 		# update time
 		t += dt
 		
-		# plot in real time - color 1/2 particles blue, other half red
+		# plot in real time
 		if (plotRealTime and plotThisTurn) or (t >= tEnd):
 			plt.cla()
 			plt.imshow(rho.T)
