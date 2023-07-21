@@ -5,6 +5,8 @@ Finite Volume simulation of the Kelvin-Helmholtz Instability
 
 ### Philip Mocz (2020) Princeton Univeristy, [@PMocz](https://twitter.com/PMocz)
 
+### [📝 Read the Algorithm Write-up on Medium](https://levelup.gitconnected.com/create-your-own-finite-volume-fluid-simulation-with-python-8f9eab0b8305)
+
 Simulate the Kelvin-Helmholtz Instability with Finite Volume
 
 
