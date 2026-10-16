@@ -279,6 +279,7 @@ def main():
         if t + dt > outputCount * tOut:
             dt = outputCount * tOut - t
             plotThisTurn = True
+            outputCount += 1
 
         # calculate gradients
         rho_dx, rho_dy = getGradient(rho, dx)
@@ -341,7 +342,6 @@ def main():
             ax.get_yaxis().set_visible(False)
             ax.set_aspect("equal")
             plt.pause(0.001)
-            outputCount += 1
 
     # Save figure
     plt.savefig("finitevolume.png", dpi=240)
